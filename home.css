@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+}
+.everything{
+    position: fixed;
+    width: 95%;
+    margin-left: 5%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: row;
+    background-image: url(bodyback.png);
+    background-size: 100% 100dvh;
+
+}
+.leftpart{
+    width: 50%;
+    padding: 3%;
+}
+.logo{
+    width: 80%;
+    margin-top: -2%;
+}
+p{
+    font-size: 1.8vw;
+    color: rgb(169, 164, 195);
+    font-weight: bold;
+    margin-top: 2%;
+    padding: 4%;
+}
+.galery{
+    width: 50%;
+    position: relative;
+}
+.upperimg{
+    width: 80%;
+    position: absolute;
+    margin: 8% 10% ;
+    box-shadow: 0 0 30px 10px rgba(56, 55, 55, 0.313);
+    border-radius: 10px;
+}
+.galeryin{
+    position: absolute;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+.galeryin img{
+    width: 39%;
+    box-shadow: 0 0 30px 10px rgba(47, 45, 45, 0.309);
+    border-radius: 10px;
+    margin-top: 3%;
+}
+.icons{
+    margin-left: 5%;
+    margin-top: -2%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.051);
+    padding: 1% 4%;
+    border-radius: 10px;
+}
+.icons a{
+    all: unset;
+    color: rgb(149, 120, 199);
+    font-size: 3vw;
+    transition: 0.5s;
+}
+.icons a:hover{
+    all: unset;
+    color: rgb(56, 56, 87);
+    font-size: 3vw;
+    transition: 0.5s;
+    cursor: pointer;
+}
